@@ -38,7 +38,7 @@
 }
 
 #navbarMenu {
-  background-color: black;
+  background-color: #007BFE;
   position: absolute;
   top: 67px;
   right: 0;
@@ -68,6 +68,10 @@
   padding-top: 12px;
 }
 
+#xlNavbar a:hover {
+  color: #007BFE !important;
+}
+
 /* Hero Styling */
 
 #hero {
@@ -83,4 +87,11 @@
   padding-bottom: 10px;
   color: white;
 }
+
+.hero-button {
+  margin-top: 350px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 
