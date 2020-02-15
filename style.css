@@ -1,0 +1,86 @@
+/* Navbar Styling */
+.navbar {
+  height: 50px;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-size: 16px;
+  color: #333;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.navbar-nav a {
+  color: #333;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+@media (min-width: 1200px) {
+  #navbarMenu {
+    display: none !important;
+  }
+}
+
+#xlNavbar .nav-link {
+  font-size: 16px;
+  padding: 12px;
+}
+#navbarMenuToggler, #navbarMenu .nav-link {
+  color: white;
+}
+
+#navbarMenu .nav-link {
+  padding: 0px 0;
+  font-weight: 300;
+}
+
+#navbarMenu {
+  background-color: black;
+  position: absolute;
+  top: 67px;
+  right: 0;
+  left: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#navbarMenu a {
+  text-align: left;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 88px;
+}
+
+.navbar-toggler {
+  margin-top: 15px;
+}
+
+.navbar-collapse a {
+  margin-top: 15px;
+}
+
+.form-inline {
+  padding-top: 12px;
+}
+
+/* Hero Styling */
+
+#hero {
+  background-image: url(./images/background-image.png);
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+}
+
+#caret-down {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+  color: white;
+}
+
