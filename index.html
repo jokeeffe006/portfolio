@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.jpeg"/>
     <title>John O'Keeffe's Portfolio</title>
   </head>
   <body>
@@ -19,8 +19,9 @@
   <div class="d-none d-xl-flex flex-grow-1" id="xlNavbar">
     <a class="navbar-brand text-white" href="#">Portfolio</a>
     <div class="navbar-nav ml-auto">
+    	<a class="nav-item nav-link text-white" href="#">Home</a>
       <a class="nav-item nav-link text-white" href="#">Projects</a>
-      <a class="nav-item nav-link text-white" href="#">About Me</a>
+      <a class="nav-item nav-link text-white" href="#">My Background</a>
       <a class="nav-item nav-link text-white" href="#">Contact</a>
     </div>
   </div>
@@ -28,8 +29,9 @@
   <!-- Button and collapsed menu -->
   <a class="navbar-toggler" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler"><i class="fa fa-bars"></i></a>
   <div class="collapse navbar-collapse text-right" id="navbarMenu">
+    <a class="nav-item nav-link text-white" href="#">Home</a>
     <a class="nav-item nav-link" href="#">Projects</a>
-    <a class="nav-item nav-link" href="#">About Me</a>
+    <a class="nav-item nav-link" href="#">My Background</a>
     <a class="nav-item nav-link" href="#">Contact</a>
   </div>
 </nav>
@@ -40,11 +42,74 @@
 		    <div class="row">
 		    	<div class="hero-button text-center"> <button type="button font-weight-bold" class="btn btn-primary" href="#"> Linkedin</button> </div>
 		    	<a href="#"><i class="fa fa-caret-down" id="caret-down"></i></a>
-		    	<div class="hero-button text-center"> <button type="button font-weight-bold" class="btn btn-primary" href="#"> Github</button> </div>
+		    	<a href="https://www.github.com/jokeeffe006" target="_blank"><div class="hero-button text-center"> <button type="button font-weight-bold" class="btn btn-primary" > Github</button> </div> </a>
 		    </div>
 		  </div>
 		</div>
 
+
+ 	<!-- Projects -->
+
+
+
+ 	<!-- My Background -->
+		<div class="about-me-container container">
+			<div class="row about-me-row">
+				<div class = "col-12 col-md-4"> 
+					<h5 class=" about-title text-center">My Background</h5>
+					<p class="about-me-text text-left">I'm an aspiring software developer based in Dublin, Ireland. <br>
+					I have an undergraduate degree in finance but have always loved all things technology. <br>
+					I am currently improving my web development skills set and have experience with the following technologies:
+					</p> 	
+				</div>	
+				<div class="col-6 col-md-2"> 
+					<img class="d-block img-fluid mx-auto"src="./images/html5-logo.png">
+					<p class="text-center">HTML5</p>	
+				</div>
+				<div class="col-6 col-md-2"> 
+					<img class="d-block img-fluid mx-auto"src="./images/css3-logo.png"> 	
+					<p class="text-center">CSS3</p>
+				</div>
+				<div class="col-6 col-md-2"> 
+					<img class="d-block img-fluid mx-auto"src="./images/bootstrap-logo.png"> 	
+					<p class="text-center">Bootstrap</p>
+				</div>
+				<div class="col-6 col-md-2"> 
+					<img class="d-block img-fluid mx-auto"src="./images/javascript-logo.png"> 
+					<p class="text-center">Javascript</p>
+				</div>	
+			</div>
+			<hr>
+		</div>
+
+<!-- Contact -->
+			<div class="container">
+			    <div class="row d-md-flex footerNav justify-content-center">
+			      <div class="col-6">
+			        <h5 class="mb-3 social text-center">Contact</h5>
+			         <p class="text-center"> If you wish to contact me then email me at johnokeeffe01@gmail.com and I will do my best to get back to you as soon as possible.</p>
+			      </div>
+			    </div>
+			 </div>
+
+
+ 	<!-- Footer  -->
+
+ <footer class="container">
+      <div class="row d-md-flex footerNav justify-content-center">
+      </div>
+      <hr class="d-md-block" />
+      <div class="row justify-content-between align-items-center mb-4 mb-md-5 mt-5 mt-md-0 footerBar">
+        <div class="col-auto">
+          <small class="text-secondary">© 2020</small>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-link px-1 text-dark select">
+            <small>English <span class="pl-1 angle d-inline-block">&gt;</span></small>
+          </button>
+        </div>
+      </div>
+    </footer>
 
     <!-- Font Awesome and jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://use.fontawesome.com/39b8d068ff.js"></script>
