@@ -17,22 +17,22 @@
   
   <!-- Nav for xl screens -->
   <div class="d-none d-xl-flex flex-grow-1" id="xlNavbar">
-    <a class="navbar-brand text-white" href="#">Portfolio</a>
+    <a class="navbar-brand text-white" href="#">John O'Keeffe's Portfolio</a>
     <div class="navbar-nav ml-auto">
-    	<a class="nav-item nav-link text-white" href="#">Home</a>
-      <a class="nav-item nav-link text-white" href="#">Projects</a>
-      <a class="nav-item nav-link text-white" href="#">My Background</a>
-      <a class="nav-item nav-link text-white" href="#">Contact</a>
+    	<a class="nav-item nav-link text-white" href="#hero">Home</a>
+      <a class="nav-item nav-link text-white" href="#projects-1">Projects</a>
+      <a class="nav-item nav-link text-white" href="#my-background">My Background</a>
+      <a class="nav-item nav-link text-white" href="#contact">Contact</a>
     </div>
   </div>
   
   <!-- Button and collapsed menu -->
   <a class="navbar-toggler" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler"><i class="fa fa-bars"></i></a>
   <div class="collapse navbar-collapse text-right" id="navbarMenu">
-    <a class="nav-item nav-link text-white" href="#">Home</a>
-    <a class="nav-item nav-link" href="#">Projects</a>
-    <a class="nav-item nav-link" href="#">My Background</a>
-    <a class="nav-item nav-link" href="#">Contact</a>
+    <a class="nav-item nav-link text-white" href="#hero">Home</a>
+    <a class="nav-item nav-link" href="#projects-1">Projects</a>
+    <a class="nav-item nav-link" href="#my-background">My Background</a>
+    <a class="nav-item nav-link" href="#contact">Contact</a>
   </div>
 </nav>
 
@@ -41,19 +41,73 @@
 		  <div class="container-fluid d-flex justify-content-center">
 		    <div class="row">
 		    	<div class="hero-button text-center"> <button type="button font-weight-bold" class="btn btn-primary" href="#"> Linkedin</button> </div>
-		    	<a href="#"><i class="fa fa-caret-down" id="caret-down"></i></a>
-		    	<a href="https://www.github.com/jokeeffe006" target="_blank"><div class="hero-button text-center"> <button type="button font-weight-bold" class="btn btn-primary" > Github</button> </div> </a>
+		    	<a href="#projects-1"><i class="fa fa-caret-down" id="caret-down"></i></a>
+		    	<a href="https://www.github.com/jokeeffe006" target="_blank"><div class="hero-button text-center"> <button type="button font-weight-bold" class="btn btn-primary">Github</button> </div> </a>
 		    </div>
 		  </div>
 		</div>
 
 
  	<!-- Projects -->
-
+<div class="projects"> 
+ <div class="container projects-container" id="projects-1">
+ 	<h1 class="projects-title">Projects</h1>
+ 		<div class="row projects-row-1">
+ 				<div class="col-12 col-md-4 project-box">
+         <a href="https://nostalgic-shaw-b6efeb.netlify.com/" target="_blank"> <img class="post-image rounded img-fluid" src="./images/project-1-image.png"></a>
+          <h2>Apple Clone</h2>
+          <p>My first project was to clone the homepage of apple.com using HTML and CSS.</p>
+          <div class="posts-date d-inline">January 20, 2020</div> 
+          <div class="project-category  d-inline"><a href="#">Web Development</a> </div>
+          </div>
+        <div class="col-12 col-md-4 project-box">
+         <a href="https://priceless-curran-f568ea.netlify.com/" target="_blank"> <img class="post-image rounded img-fluid" src="./images/project-2-image.png"> </a>
+          <h2>Newsweek Clone</h2>
+          <p>I cloned the front page of newsweek using HTML, CSS and Bootstrap.</p>
+          <div class="posts-date d-inline">January 29, 2020</div> 
+          <div class="projects-category d-inline"><a href="#">Web Development</a> </div>
+          </div>
+        <div class="col-12 col-md-4 project-box">
+          <a href="https://amazing-gates-d0ab1c.netlify.com/"><img class="post-image rounded img-fluid" src="./images/project-3-image.png"></a>
+          <h2>Airbnb Clone</h2>
+          <p>I cloned the front page of airbnb's newsroom website using HTML, CSS and Bootstrap.</p>
+          <div class="posts-date d-inline">February 09, 2020</div> 
+          <div class="project-category d-inline"><a href="#">Web Development</a> </div>
+       </div>
+     </div>
+   </div>
+       
+		<div class="container projects-container" id="projects-2">
+       <div class="row projects-row-2">
+        <div class="col-12 col-md-4 project-box">
+          <img class="post-image rounded img-fluid" src="./images/project-placeholder-image.png">
+          <h2>TBC</h2>
+          <p>Upcoming Project.</p>
+          <div class="posts-date d-inline">January 20, 2020</div> 
+          <div class="project-category  d-inline"><a href="#">Web Development</a> </div>
+         </div>
+         <div class="col-12 col-md-4 project-box">
+          <img class="post-image rounded img-fluid" src="./images/project-placeholder-image.png">
+          <h2>TBC</h2>
+          <p>Upcoming project.</p>
+          <div class="posts-date d-inline">February 28, 2020</div> 
+          <div class="project-category  d-inline"><a href="#">Web Development</a> </div>
+         </div>
+         <div class="col-12 col-md-4 project-box">
+          <img class="post-image rounded img-fluid" src="./images/project-placeholder-image.png">
+          <h2>TBC</h2>
+          <p>Upcoming Project.</p>
+          <div class="posts-date d-inline">March 04, 2020</div> 
+          <div class="project-category  d-inline"><a href="#">Web Development</a> </div>
+         </div>
+ 				</div>
+ 			 <hr>
+ 			</div>
+</div>
 
 
  	<!-- My Background -->
-		<div class="about-me-container container">
+		<div class="about-me-container container" id="my-background">
 			<div class="row about-me-row">
 				<div class = "col-12 col-md-4"> 
 					<h5 class=" about-title text-center">My Background</h5>
@@ -79,14 +133,14 @@
 					<p class="text-center">Javascript</p>
 				</div>	
 			</div>
-			<hr>
+		 <hr>
 		</div>
 
 <!-- Contact -->
-			<div class="container">
+			<div class="container" id="contact">
 			    <div class="row d-md-flex footerNav justify-content-center">
 			      <div class="col-6">
-			        <h5 class="mb-3 social text-center">Contact</h5>
+			        <h5 class="mb-3 contact-title text-center">Contact</h5>
 			         <p class="text-center"> If you wish to contact me then email me at johnokeeffe01@gmail.com and I will do my best to get back to you as soon as possible.</p>
 			      </div>
 			    </div>
@@ -94,7 +148,6 @@
 
 
  	<!-- Footer  -->
-
  <footer class="container">
       <div class="row d-md-flex footerNav justify-content-center">
       </div>
